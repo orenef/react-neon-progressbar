@@ -1,16 +1,18 @@
 {
-  "name": "react-typescript-rollup-parcel-template",
+  "name": "react-neon-progressbar",
   "version": "1.0.0",
-  "description": "Base template",
+  "description": "Simple progress component with neon look. Good for cyber",
   "main": "build/index.js",
   "module": "build/index.es.js",
+  "keywords": ["react", "progressbar", "neon"],
+  "homepage": "https://github.com/orenef/react-neon-progressbar",
   "scripts": {
     "start": "parcel --out-dir playground-build ./src/playground/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",

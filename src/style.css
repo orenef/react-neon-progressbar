@@ -1,0 +1,34 @@
+:root {
+    --progress-neon-color1: #0dfcc4;
+    --progress-neon-color2: #17fcc7;
+    --progress-neon-background: #03fcc2;
+    --progress-neon-text-color: #fc0349;
+    --progress-neon-text-color-shadow1: #f70348;
+    --progress-neon-text-color-shadow2: #de0340;
+}
+
+.react-neon-bar {
+    -webkit-appearance: none;
+    height: 1.4em;
+    font-family: monospace;
+}
+
+.react-neon-bar::-webkit-progress-value {
+    background: var(--progress-neon-background);
+    box-shadow: 0 0 0.6em var(--progress-neon-color1), 0 0 0.8em var(--progress-neon-color2);
+    border-radius: calc(1.4em / 2);
+}
+.react-neon-bar::-webkit-progress-bar {
+    padding: 0.3em;
+    border-radius: calc(1.4em / 2);
+    background: #1e1e1e;
+}
+
+.react-neon-bar__value {
+  color: var(--progress-neon-text-color);
+  font-size: 1.2em;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+  text-shadow: 0 0 0.3em var(--progress-neon-text-color-shadow1), 0 0 0.6em var(--progress-neon-text-color-shadow2);
+  margin-left:.5em;
+}

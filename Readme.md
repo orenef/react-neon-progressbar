@@ -4,10 +4,10 @@
 
 react-neon-progressbar is simple progress component with neon look. Good for cyber ;)
 
-[See Demo at CodeSandbox]()
+[See Demo at CodeSandbox](https://codesandbox.io/s/react-neon-progressbar-utqsh)
 ## Installation
 
-Use the package manager [npm]() to install .
+Use the package manager [npm](https://www.npmjs.com/package/react-neon-progressbar) to install .
 
 ```bash
 npm install react-neon-progressbar 

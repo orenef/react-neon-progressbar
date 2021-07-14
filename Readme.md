@@ -18,7 +18,7 @@ npm install react-neon-progressbar
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { NeonProgressBar } from '../NeonProgressBar';
+import { NeonProgressBar } from 'react-neon-progressbar';
 
 let intervalId: any = undefined;
 function Demo() {
